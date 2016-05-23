@@ -1,0 +1,15 @@
+fai=0:5*pi/6;
+s=10*(1-cos(6*fai/5));
+plot(fai,s);
+hold on;
+fai=5*pi/6:pi;
+s=60;
+plot(fai,s);
+fai=pi:4*pi/3;
+s=20-360*(fai-pi).^2./pi^2;
+plot(fai,s);
+hold off;
+title('cong dong jian wei yi xian tu ');
+xlabel('fai');
+ylabel('s  (mm)');
+grid on;

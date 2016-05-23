@@ -1,0 +1,20 @@
+%Script file:yellow_red_green.m
+%
+%
+%Purpose:Judge the color of traffic light,then give the command
+%
+% Record of revisions:
+% Date Programmer Descriptionofchange
+% ==== ========== =====================
+% 
+%
+%Define variables:
+%color---The color of traffic light
+%
+%Prompt the user of inputing the variables
+%
+%
+%Perform calculation
+%
+%
+%Tell the user about the resonant

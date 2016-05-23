@@ -1,0 +1,11 @@
+%二维统计分析图
+x=0:pi/10:2*pi;
+y=2*sin(x);
+subplot(2,2,1);bar(x,y,'g');%绘制条形图
+title('bar(x,y,''g'')');axis([0,7,-2,2]);
+subplot(2,2,2);stairs(x,y,'b');%绘制阶梯图
+title('stairs(x,y,''b'')');axis([0,7,-2,2]);
+subplot(2,2,3);stem(x,y,'k');%绘制杆图
+title('stem(x,y,''k'')');axis([0,7,-2,2]);
+subplot(2,2,4);fill(x,y,'y');%绘制填充图
+title('fill(x,y,''y'')');axis([0,7,-2,2]);

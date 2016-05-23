@@ -1,0 +1,7 @@
+x=input('x=');
+if x>=0
+disp('sqrt_x='num2str(a(index)));
+else
+disp('Illegal Parameter!');
+sqrt_x=0;
+end

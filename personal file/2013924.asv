@@ -1,0 +1,11 @@
+%matlab基础学习
+%程序停留pause()函数,()里写时间秒
+%
+%
+clear 
+n=input('输入n= ');
+if n>=90
+    r='A'
+elseif n>=80
+    r='B'
+    

@@ -1,0 +1,9 @@
+clear all;
+x=-pi:pi/10:pi;
+y=tan(sin(x))-sin(tan(x));
+plot(x,y,'--rv','LineWidth',2,...
+    'MarkerEdgeColor','k'  ,  ...
+    'MarkerFaceColor', 'm' ,   ...
+    'MarkerSize',12)
+xlabel('数据');
+ylabel('plot函数绘图效果');
